@@ -1,0 +1,21 @@
+{
+  "name": "low-colour-dark",
+  "displayName": "Low Colour Dark",
+  "description": "A dark theme with few colours",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Low Colour Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/low-colour-dark-color-theme.json"
+      }
+    ]
+  }
+}
